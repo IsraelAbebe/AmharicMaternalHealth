@@ -32,9 +32,6 @@ def doc_to_text_amh_eng_ep1(doc):
 def doc_to_text_eng_ep1(doc):
     output = """answer the question that follows.
 
-                Story:
-                "{story}"
-
                 Question:
                 "{question}"
 
@@ -58,8 +55,6 @@ def doc_to_text_eng_ep1(doc):
 def doc_to_text_amh_eng_ep2(doc):
     output = """ answer the question that tests your understanding of it.
 
-                Story:
-                "{story}"
 
                 Question:
                 "{question}"

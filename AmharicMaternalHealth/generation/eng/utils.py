@@ -80,9 +80,6 @@ def doc_to_text_amh_eng_ep3(doc):
 def doc_to_text_eng_ep3(doc):
     output = """ choose the most accurate answer to the question that follows.
 
-                Story:
-                "{story}"
-
                 Question:
                 "{question}"
 

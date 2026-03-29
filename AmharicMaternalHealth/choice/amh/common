@@ -2,7 +2,7 @@ dataset_path: israel/AmharicMaternalHealth
 dataset_name: null
 output_type: multiple_choice
 test_split: test
-doc_to_target: "{{['A', 'B', 'C', 'D'].index(answer)}}"
+doc_to_target: "{{['ሀ', 'ለ', 'መ', 'ሰ'].index(amharic_answer_letter)}}"
 should_decontaminate: true
 metric_list:
   - metric: f1
